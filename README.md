@@ -24,4 +24,4 @@ Razvan Bangu, razvan.bangu@gmail.com
 
 ## License
 
-NSLayoutConstraint-Reset is available under the MIT license. See the LICENSE file for more info.
+NSLayoutConstraint+Reset is available under the MIT license. See the LICENSE file for more info.
