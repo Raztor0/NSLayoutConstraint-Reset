@@ -7,6 +7,7 @@
 //
 
 #import "NSLayoutConstraint+Reset.h"
+#import <objc/runtime.h>
 
 @implementation NSLayoutConstraint (Reset)
 
