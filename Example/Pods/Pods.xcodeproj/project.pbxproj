@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38DF807B1C7AE85E004049BC /* NSLayoutConstraint+Reset.h in Headers */ = {isa = PBXBuildFile; fileRef = 38DF80791C7AE85E004049BC /* NSLayoutConstraint+Reset.h */; };
+		38DF807C1C7AE85E004049BC /* NSLayoutConstraint+Reset.m in Sources */ = {isa = PBXBuildFile; fileRef = 38DF807A1C7AE85E004049BC /* NSLayoutConstraint+Reset.m */; };
+		448FCE433C03B6672D80B34DB60D9990 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		5AFB4A268453D99D77D301BB13F5BCC2 /* NSLayoutConstraint-Reset-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 031A458DCBE96A1B41728E92D2522E43 /* NSLayoutConstraint-Reset-dummy.m */; };
+		63C58E881C2D5E5E3351B308AF96893D /* Pods-NSLayoutConstraint-Reset_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B6D2F7F851C8B8D962D66946E7CEDA71 /* Pods-NSLayoutConstraint-Reset_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CDF426D310A24CEC33B8728004BA0B1 /* Pods-NSLayoutConstraint-Reset_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F305EA67ABB7FA4FBB6D1BCC758AA435 /* Pods-NSLayoutConstraint-Reset_Tests-dummy.m */; };
+		DBE5E0A8A721211E41B716D09A9324FA /* NSLayoutConstraint-Reset.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EEFF9B38DFD55154B6431217367BFBDD /* NSLayoutConstraint-Reset.bundle */; };
+		DE83DD18264C36CBFC36F8B75AD39E59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		DF880EAA0FC798366DB09EACFB1A4B26 /* NSLayoutConstraint-Reset-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BE1842DB71EC928D7290E87825DF4E62 /* NSLayoutConstraint-Reset-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21C127E217FE59F0F569CEBEED653DEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05949F5E2B44DF1CB633B26CC42EABDB;
+			remoteInfo = "NSLayoutConstraint-Reset-NSLayoutConstraint-Reset";
+		};
+		BB0EA81073627DB8EADD6260A43D97B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4370C74C596F836388E0619A440A8A8;
+			remoteInfo = "NSLayoutConstraint-Reset";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		031A458DCBE96A1B41728E92D2522E43 /* NSLayoutConstraint-Reset-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint-Reset-dummy.m"; sourceTree = "<group>"; };
+		1221B3B2F1C1C05F917F8C74A4330480 /* NSLayoutConstraint-Reset.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "NSLayoutConstraint-Reset.xcconfig"; sourceTree = "<group>"; };
+		16D1C132FB2824DD7D5D962002133492 /* NSLayoutConstraint_Reset.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSLayoutConstraint_Reset.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		213121423B8F6B9BD230048804A68B22 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C878E940531C82D1022F41723EB122F /* NSLayoutConstraint-Reset-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint-Reset-prefix.pch"; sourceTree = "<group>"; };
+		38DF80791C7AE85E004049BC /* NSLayoutConstraint+Reset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+Reset.h"; sourceTree = "<group>"; };
+		38DF807A1C7AE85E004049BC /* NSLayoutConstraint+Reset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+Reset.m"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		407417397E9A0EF11D73CA2F68FD73B1 /* Pods-NSLayoutConstraint-Reset_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NSLayoutConstraint-Reset_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6F087130C5540AEFFEAAA37F790773AE /* Pods-NSLayoutConstraint-Reset_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NSLayoutConstraint-Reset_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8CAD7666025DBC774B2DC88DDD897F0C /* Pods-NSLayoutConstraint-Reset_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NSLayoutConstraint-Reset_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		90CE36D4771F425231B11660E5C85FBC /* Pods_NSLayoutConstraint_Reset_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NSLayoutConstraint_Reset_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		997F7AC2C76FEF410BE92237185F6D29 /* Pods-NSLayoutConstraint-Reset_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NSLayoutConstraint-Reset_Tests-resources.sh"; sourceTree = "<group>"; };
+		A28ED6B77A8E5C344314F2A49304342A /* Pods-NSLayoutConstraint-Reset_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NSLayoutConstraint-Reset_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B16EF32A9A613B77909878B01F43C17C /* NSLayoutConstraint-Reset.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "NSLayoutConstraint-Reset.modulemap"; sourceTree = "<group>"; };
+		B6D2F7F851C8B8D962D66946E7CEDA71 /* Pods-NSLayoutConstraint-Reset_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NSLayoutConstraint-Reset_Tests-umbrella.h"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BE1842DB71EC928D7290E87825DF4E62 /* NSLayoutConstraint-Reset-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint-Reset-umbrella.h"; sourceTree = "<group>"; };
+		C7B57ED379220E4CDD310763F1A78904 /* Pods-NSLayoutConstraint-Reset_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NSLayoutConstraint-Reset_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		C7FDFA9724018B7BE30D2E4C84F101E1 /* Pods-NSLayoutConstraint-Reset_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-NSLayoutConstraint-Reset_Tests.modulemap"; sourceTree = "<group>"; };
+		D4CA601E54B821ECA0D7B8604C8D2C7B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEFF9B38DFD55154B6431217367BFBDD /* NSLayoutConstraint-Reset.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSLayoutConstraint-Reset.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F305EA67ABB7FA4FBB6D1BCC758AA435 /* Pods-NSLayoutConstraint-Reset_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NSLayoutConstraint-Reset_Tests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05BC0A0D6A4BBD6A416B8944BFF3F23B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42C2083E5D561B43110987F2E09672F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				448FCE433C03B6672D80B34DB60D9990 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD4A4136FD5AF71CD94D619BD00B261A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE83DD18264C36CBFC36F8B75AD39E59 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B3923EB8A584EFBAB072D89902D00B9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				213121423B8F6B9BD230048804A68B22 /* Info.plist */,
+				B16EF32A9A613B77909878B01F43C17C /* NSLayoutConstraint-Reset.modulemap */,
+				1221B3B2F1C1C05F917F8C74A4330480 /* NSLayoutConstraint-Reset.xcconfig */,
+				031A458DCBE96A1B41728E92D2522E43 /* NSLayoutConstraint-Reset-dummy.m */,
+				2C878E940531C82D1022F41723EB122F /* NSLayoutConstraint-Reset-prefix.pch */,
+				BE1842DB71EC928D7290E87825DF4E62 /* NSLayoutConstraint-Reset-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/NSLayoutConstraint-Reset";
+			sourceTree = "<group>";
+		};
+		490C6EA2C448E755D682A48E689D3FF8 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D4FCF51194CD577409563BC2AF5A32BC /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		5E57B7377712E44B0AB7698F02369F9B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E425A07F74963BAD6EB4EFEE20EBC2A6 /* Pods-NSLayoutConstraint-Reset_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				EB8C82538D092BD797554C6AC219D3E4 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				9EE0E063B424583281B3F12C7CE0F390 /* Products */,
+				5E57B7377712E44B0AB7698F02369F9B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9EE0E063B424583281B3F12C7CE0F390 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEFF9B38DFD55154B6431217367BFBDD /* NSLayoutConstraint-Reset.bundle */,
+				16D1C132FB2824DD7D5D962002133492 /* NSLayoutConstraint_Reset.framework */,
+				90CE36D4771F425231B11660E5C85FBC /* Pods_NSLayoutConstraint_Reset_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0A51575755F3C55287A6D098B13D33F /* NSLayoutConstraint-Reset */ = {
+			isa = PBXGroup;
+			children = (
+				490C6EA2C448E755D682A48E689D3FF8 /* Pod */,
+				0B3923EB8A584EFBAB072D89902D00B9 /* Support Files */,
+			);
+			name = "NSLayoutConstraint-Reset";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D4FCF51194CD577409563BC2AF5A32BC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				38DF80791C7AE85E004049BC /* NSLayoutConstraint+Reset.h */,
+				38DF807A1C7AE85E004049BC /* NSLayoutConstraint+Reset.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E425A07F74963BAD6EB4EFEE20EBC2A6 /* Pods-NSLayoutConstraint-Reset_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D4CA601E54B821ECA0D7B8604C8D2C7B /* Info.plist */,
+				C7FDFA9724018B7BE30D2E4C84F101E1 /* Pods-NSLayoutConstraint-Reset_Tests.modulemap */,
+				407417397E9A0EF11D73CA2F68FD73B1 /* Pods-NSLayoutConstraint-Reset_Tests-acknowledgements.markdown */,
+				A28ED6B77A8E5C344314F2A49304342A /* Pods-NSLayoutConstraint-Reset_Tests-acknowledgements.plist */,
+				F305EA67ABB7FA4FBB6D1BCC758AA435 /* Pods-NSLayoutConstraint-Reset_Tests-dummy.m */,
+				C7B57ED379220E4CDD310763F1A78904 /* Pods-NSLayoutConstraint-Reset_Tests-frameworks.sh */,
+				997F7AC2C76FEF410BE92237185F6D29 /* Pods-NSLayoutConstraint-Reset_Tests-resources.sh */,
+				B6D2F7F851C8B8D962D66946E7CEDA71 /* Pods-NSLayoutConstraint-Reset_Tests-umbrella.h */,
+				6F087130C5540AEFFEAAA37F790773AE /* Pods-NSLayoutConstraint-Reset_Tests.debug.xcconfig */,
+				8CAD7666025DBC774B2DC88DDD897F0C /* Pods-NSLayoutConstraint-Reset_Tests.release.xcconfig */,
+			);
+			name = "Pods-NSLayoutConstraint-Reset_Tests";
+			path = "Target Support Files/Pods-NSLayoutConstraint-Reset_Tests";
+			sourceTree = "<group>";
+		};
+		EB8C82538D092BD797554C6AC219D3E4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B0A51575755F3C55287A6D098B13D33F /* NSLayoutConstraint-Reset */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0BA1E9B70E07B13BDF2B6BDC9FEA4B34 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38DF807B1C7AE85E004049BC /* NSLayoutConstraint+Reset.h in Headers */,
+				DF880EAA0FC798366DB09EACFB1A4B26 /* NSLayoutConstraint-Reset-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F47DB77C95374BD99C3B72B97F4E60D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63C58E881C2D5E5E3351B308AF96893D /* Pods-NSLayoutConstraint-Reset_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		05949F5E2B44DF1CB633B26CC42EABDB /* NSLayoutConstraint-Reset-NSLayoutConstraint-Reset */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CEF8627A48DAF5AF2CCDFA0638AEEA3 /* Build configuration list for PBXNativeTarget "NSLayoutConstraint-Reset-NSLayoutConstraint-Reset" */;
+			buildPhases = (
+				4E5638A8C05EB3AE1D6ABC37FE4230DC /* Sources */,
+				05BC0A0D6A4BBD6A416B8944BFF3F23B /* Frameworks */,
+				3F4884784B7740BA04566D80C6BFA1E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NSLayoutConstraint-Reset-NSLayoutConstraint-Reset";
+			productName = "NSLayoutConstraint-Reset-NSLayoutConstraint-Reset";
+			productReference = EEFF9B38DFD55154B6431217367BFBDD /* NSLayoutConstraint-Reset.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		57A0F24F34896E71CA72986CFA3140D3 /* Pods-NSLayoutConstraint-Reset_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 348F7AD7893B748EE001A51E636B7583 /* Build configuration list for PBXNativeTarget "Pods-NSLayoutConstraint-Reset_Tests" */;
+			buildPhases = (
+				F414E2AFD7342F38DF1163BE0E993CF3 /* Sources */,
+				BD4A4136FD5AF71CD94D619BD00B261A /* Frameworks */,
+				1F47DB77C95374BD99C3B72B97F4E60D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43178D1673CD077495BBA9706149F16F /* PBXTargetDependency */,
+			);
+			name = "Pods-NSLayoutConstraint-Reset_Tests";
+			productName = "Pods-NSLayoutConstraint-Reset_Tests";
+			productReference = 90CE36D4771F425231B11660E5C85FBC /* Pods_NSLayoutConstraint_Reset_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A4370C74C596F836388E0619A440A8A8 /* NSLayoutConstraint-Reset */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF427B3BF35FBEDDBB769AC6DD1E9101 /* Build configuration list for PBXNativeTarget "NSLayoutConstraint-Reset" */;
+			buildPhases = (
+				8F2D1AA166EAFBC499E99DCFAC9D47AA /* Sources */,
+				42C2083E5D561B43110987F2E09672F1 /* Frameworks */,
+				26B0AEA90A2F7E042E6EA862E81FB6D7 /* Resources */,
+				0BA1E9B70E07B13BDF2B6BDC9FEA4B34 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				678F8E27E5672F0BDB411F6A5F660134 /* PBXTargetDependency */,
+			);
+			name = "NSLayoutConstraint-Reset";
+			productName = "NSLayoutConstraint-Reset";
+			productReference = 16D1C132FB2824DD7D5D962002133492 /* NSLayoutConstraint_Reset.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 9EE0E063B424583281B3F12C7CE0F390 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4370C74C596F836388E0619A440A8A8 /* NSLayoutConstraint-Reset */,
+				05949F5E2B44DF1CB633B26CC42EABDB /* NSLayoutConstraint-Reset-NSLayoutConstraint-Reset */,
+				57A0F24F34896E71CA72986CFA3140D3 /* Pods-NSLayoutConstraint-Reset_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26B0AEA90A2F7E042E6EA862E81FB6D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBE5E0A8A721211E41B716D09A9324FA /* NSLayoutConstraint-Reset.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F4884784B7740BA04566D80C6BFA1E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E5638A8C05EB3AE1D6ABC37FE4230DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F2D1AA166EAFBC499E99DCFAC9D47AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AFB4A268453D99D77D301BB13F5BCC2 /* NSLayoutConstraint-Reset-dummy.m in Sources */,
+				38DF807C1C7AE85E004049BC /* NSLayoutConstraint+Reset.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F414E2AFD7342F38DF1163BE0E993CF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CDF426D310A24CEC33B8728004BA0B1 /* Pods-NSLayoutConstraint-Reset_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43178D1673CD077495BBA9706149F16F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "NSLayoutConstraint-Reset";
+			target = A4370C74C596F836388E0619A440A8A8 /* NSLayoutConstraint-Reset */;
+			targetProxy = BB0EA81073627DB8EADD6260A43D97B2 /* PBXContainerItemProxy */;
+		};
+		678F8E27E5672F0BDB411F6A5F660134 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "NSLayoutConstraint-Reset-NSLayoutConstraint-Reset";
+			target = 05949F5E2B44DF1CB633B26CC42EABDB /* NSLayoutConstraint-Reset-NSLayoutConstraint-Reset */;
+			targetProxy = 21C127E217FE59F0F569CEBEED653DEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5FCC844C394A89CA54BA03317E04DC1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CAD7666025DBC774B2DC88DDD897F0C /* Pods-NSLayoutConstraint-Reset_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NSLayoutConstraint-Reset_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NSLayoutConstraint-Reset_Tests/Pods-NSLayoutConstraint-Reset_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_NSLayoutConstraint_Reset_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		843C8CB47503440162C658399850EEEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1221B3B2F1C1C05F917F8C74A4330480 /* NSLayoutConstraint-Reset.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = "NSLayoutConstraint-Reset";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		92DEDE8456551C42252FA99EF73CB9AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1221B3B2F1C1C05F917F8C74A4330480 /* NSLayoutConstraint-Reset.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NSLayoutConstraint-Reset/NSLayoutConstraint-Reset-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NSLayoutConstraint-Reset/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NSLayoutConstraint-Reset/NSLayoutConstraint-Reset.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = NSLayoutConstraint_Reset;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A3C5FDF8E2F3A710210370AE197586AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1221B3B2F1C1C05F917F8C74A4330480 /* NSLayoutConstraint-Reset.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = "NSLayoutConstraint-Reset";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		D579DCB851D19153A2AE7BADA2EBE0B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F087130C5540AEFFEAAA37F790773AE /* Pods-NSLayoutConstraint-Reset_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NSLayoutConstraint-Reset_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NSLayoutConstraint-Reset_Tests/Pods-NSLayoutConstraint-Reset_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_NSLayoutConstraint_Reset_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D5D10B5645B1E10FA59C1670DC574E56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1221B3B2F1C1C05F917F8C74A4330480 /* NSLayoutConstraint-Reset.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NSLayoutConstraint-Reset/NSLayoutConstraint-Reset-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NSLayoutConstraint-Reset/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NSLayoutConstraint-Reset/NSLayoutConstraint-Reset.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = NSLayoutConstraint_Reset;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		348F7AD7893B748EE001A51E636B7583 /* Build configuration list for PBXNativeTarget "Pods-NSLayoutConstraint-Reset_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D579DCB851D19153A2AE7BADA2EBE0B7 /* Debug */,
+				5FCC844C394A89CA54BA03317E04DC1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CEF8627A48DAF5AF2CCDFA0638AEEA3 /* Build configuration list for PBXNativeTarget "NSLayoutConstraint-Reset-NSLayoutConstraint-Reset" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3C5FDF8E2F3A710210370AE197586AD /* Debug */,
+				843C8CB47503440162C658399850EEEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF427B3BF35FBEDDBB769AC6DD1E9101 /* Build configuration list for PBXNativeTarget "NSLayoutConstraint-Reset" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5D10B5645B1E10FA59C1670DC574E56 /* Debug */,
+				92DEDE8456551C42252FA99EF73CB9AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

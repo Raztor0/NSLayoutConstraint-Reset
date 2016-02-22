@@ -1,0 +1,6 @@
+framework module NSLayoutConstraint_Reset {
+  umbrella header "NSLayoutConstraint-Reset-umbrella.h"
+
+  export *
+  module * { export * }
+}

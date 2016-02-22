@@ -1,0 +1,14 @@
+PODS:
+  - NSLayoutConstraint-Reset (0.1.0)
+
+DEPENDENCIES:
+  - NSLayoutConstraint-Reset (from `../`)
+
+EXTERNAL SOURCES:
+  NSLayoutConstraint-Reset:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NSLayoutConstraint-Reset: f24553eb7fcceb1f1ca0febc73af53120c823cff
+
+COCOAPODS: 0.39.0

@@ -1,0 +1,25 @@
+{
+  "name": "NSLayoutConstraint-Reset",
+  "version": "0.1.0",
+  "summary": "A short description of NSLayoutConstraint-Reset.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/NSLayoutConstraint-Reset",
+  "license": "MIT",
+  "authors": {
+    "Razvan Bangu": "razvan.bangu@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/NSLayoutConstraint-Reset.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "NSLayoutConstraint-Reset": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}
