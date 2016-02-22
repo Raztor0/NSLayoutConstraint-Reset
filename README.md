@@ -9,6 +9,15 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+```objc
+self.myConstraint = [NSLayoutConstraint ...]; // Initialize your constraint (Also works with interface builder)
+// We'll assume myConstraint.constant is initialized to 20.0f for this example
+
+self.myConstraint.constant = 50.0f; // Update the constant value
+
+[self.myConstraint reset]; // myConstraint.constant will now be set to 20.0f
+```
+
 ## Installation
 
 NSLayoutConstraint-Reset is available through [CocoaPods](http://cocoapods.org). To install
