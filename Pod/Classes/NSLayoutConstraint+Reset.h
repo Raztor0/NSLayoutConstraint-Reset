@@ -1,6 +1,5 @@
 //
 //  NSLayoutConstraint+Reset.h
-//  Carspotter
 //
 //  Created by Razvan Bangu on 2016-02-21.
 //  Copyright © 2016 Razio. All rights reserved.

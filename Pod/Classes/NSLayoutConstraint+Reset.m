@@ -1,6 +1,5 @@
 //
 //  NSLayoutConstraint+Reset.m
-//  Carspotter
 //
 //  Created by Razvan Bangu on 2016-02-21.
 //  Copyright © 2016 Razio. All rights reserved.
@@ -17,7 +16,7 @@
         Class class = [self class];
         
         SEL original = @selector(setConstant:);
-        SEL swizzled = @selector(carspotter_setConstant:);
+        SEL swizzled = @selector(razvan_setConstant:);
         
         Method originalMethod = class_getInstanceMethod(class, original);
         Method swizzledMethod = class_getInstanceMethod(class, swizzled);
@@ -52,12 +51,12 @@
     objc_setAssociatedObject(self, @selector(initialConstant), initialConstant, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 
-- (void)carspotter_setConstant:(CGFloat)constant {
+- (void)razvan_setConstant:(CGFloat)constant {
     if(![self initialConstant]) {
         self.initialConstant = [NSNumber numberWithFloat:constant];
     }
     
-    [self carspotter_setConstant:constant];
+    [self razvan_setConstant:constant];
 }
 
 @end
