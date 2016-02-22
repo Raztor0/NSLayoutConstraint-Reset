@@ -20,7 +20,7 @@ self.myConstraint.constant = 50.0f; // Update the constant value
 
 ## Installation
 
-NSLayoutConstraint-Reset is available through [CocoaPods](http://cocoapods.org). To install
+NSLayoutConstraint+Reset is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
