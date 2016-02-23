@@ -61,17 +61,5 @@
     XCTAssertEqual(myConstraint.constant, 20.0f);
 }
 
-- (void)testResetXibInitializedConstraint {
-    TestView *view = [[[NSBundle bundleForClass:[self class]] loadNibNamed:@"TestView" owner:nil options:nil] firstObject];
-    
-    XCTAssertEqual(view.buttonHeightConstraint.constant, 50.0f);
-    
-    view.buttonHeightConstraint.constant = 0.0f; // Hide a button
-    XCTAssertEqual(view.buttonHeightConstraint.constant, 0.0f);
-    
-    [view.buttonHeightConstraint reset]; // Show the button again
-    XCTAssertEqual(view.buttonHeightConstraint.constant, 50.0f);
-}
-
 @end
 

@@ -40,11 +40,7 @@
 
 - (void)razvan_setConstant:(CGFloat)constant {
     if(![self initialConstant]) {
-        if(self.constant == 0) { // We were initialized normally
-            self.initialConstant = [NSNumber numberWithFloat:constant];
-        } else { // We were somehow initialized without calling -setConstant
-            self.initialConstant = [NSNumber numberWithFloat:self.constant];
-        }
+        self.initialConstant = [NSNumber numberWithFloat:constant];
     }
     
     [self razvan_setConstant:constant];
