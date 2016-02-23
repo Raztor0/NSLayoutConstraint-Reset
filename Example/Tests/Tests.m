@@ -7,7 +7,6 @@
 //
 
 #import "NSLayoutConstraint+Reset.h"
-#import "TestView.h"
 
 @import XCTest;
 
