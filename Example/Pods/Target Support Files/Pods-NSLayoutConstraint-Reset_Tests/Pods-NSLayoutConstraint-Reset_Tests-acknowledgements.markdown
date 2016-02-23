@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## NSLayoutConstraint-Reset
+## NSLayoutConstraint+Reset
 
 Copyright (c) 2016 Razvan Bangu <razvan.bangu@gmail.com>
 

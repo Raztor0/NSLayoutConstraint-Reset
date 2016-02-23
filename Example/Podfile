@@ -3,7 +3,6 @@ use_frameworks!
 
 
 target 'NSLayoutConstraint-Reset_Tests', :exclusive => true do
-  pod 'NSLayoutConstraint-Reset', :path => '../'
-
-  
+  pod 'NSLayoutConstraint+Reset', :path => '../'
+  pod 'JRSwizzle', '~> 1.0'
 end

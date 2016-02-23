@@ -1,14 +1,18 @@
 PODS:
-  - NSLayoutConstraint-Reset (0.1.0)
+  - JRSwizzle (1.0)
+  - NSLayoutConstraint+Reset (0.1.0):
+    - JRSwizzle (~> 1.0)
 
 DEPENDENCIES:
-  - NSLayoutConstraint-Reset (from `../`)
+  - JRSwizzle (~> 1.0)
+  - NSLayoutConstraint+Reset (from `../`)
 
 EXTERNAL SOURCES:
-  NSLayoutConstraint-Reset:
+  NSLayoutConstraint+Reset:
     :path: "../"
 
 SPEC CHECKSUMS:
-  NSLayoutConstraint-Reset: f24553eb7fcceb1f1ca0febc73af53120c823cff
+  JRSwizzle: dd5ead5d913a0f29e7f558200165849f006bb1e3
+  NSLayoutConstraint+Reset: c91310a98f2c322cb4682e260ce150fab4017239
 
 COCOAPODS: 0.39.0

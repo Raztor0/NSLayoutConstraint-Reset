@@ -6,6 +6,7 @@
 //
 
 #import "NSLayoutConstraint+Reset.h"
+#import "JRSwizzle.h"
 #import <objc/runtime.h>
 
 @implementation NSLayoutConstraint (Reset)
@@ -13,21 +14,7 @@
 + (void)load {
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        Class class = [self class];
-        
-        SEL original = @selector(setConstant:);
-        SEL swizzled = @selector(razvan_setConstant:);
-        
-        Method originalMethod = class_getInstanceMethod(class, original);
-        Method swizzledMethod = class_getInstanceMethod(class, swizzled);
-        
-        BOOL didAddMethod = class_addMethod(class, original, method_getImplementation(swizzledMethod), method_getTypeEncoding(swizzledMethod));
-        
-        if(didAddMethod) {
-            class_replaceMethod(class, swizzled, method_getImplementation(originalMethod), method_getTypeEncoding(originalMethod));
-        } else {
-            method_exchangeImplementations(originalMethod, swizzledMethod);
-        }
+        [self jr_swizzleMethod:@selector(setConstant:) withMethod:@selector(razvan_setConstant:) error:nil];
     });
 }
 

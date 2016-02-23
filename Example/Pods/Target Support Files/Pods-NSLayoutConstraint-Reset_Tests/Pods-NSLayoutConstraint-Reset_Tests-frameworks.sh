@@ -84,8 +84,10 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "Pods-NSLayoutConstraint-Reset_Tests/JRSwizzle.framework"
   install_framework "Pods-NSLayoutConstraint-Reset_Tests/NSLayoutConstraint_Reset.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "Pods-NSLayoutConstraint-Reset_Tests/JRSwizzle.framework"
   install_framework "Pods-NSLayoutConstraint-Reset_Tests/NSLayoutConstraint_Reset.framework"
 fi
