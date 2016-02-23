@@ -14,7 +14,9 @@ UIView *container = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
 UIView *constrainedView = [[UIView alloc] initWithFrame:CGRectMake(20, 20, 20, 20)];
 [container addSubview:constrainedView];
 
-NSLayoutConstraint *myConstraint = [NSLayoutConstraint constraintWithItem:constrainedView attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:container attribute:NSLayoutAttributeTop multiplier:1.0f constant:20.0f]; // Also works with NSLayoutConstraints created via InterfaceBuilder
+NSLayoutConstraint *myConstraint = [NSLayoutConstraint constraintWithItem:constrainedView
+attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:container attribute:NSLayoutAttributeTop
+multiplier:1.0f constant:20.0f]; // Also works with NSLayoutConstraints created via InterfaceBuilder
 
 NSLog(@"%f", myConstraint.constant); // 20.0
 myConstraint.constant = 35.0f;
