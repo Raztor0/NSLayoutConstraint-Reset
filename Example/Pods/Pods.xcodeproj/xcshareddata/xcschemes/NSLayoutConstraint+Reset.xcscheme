@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'CB9411F06118555567AA8CAD'
+               BlueprintIdentifier = '91D03D8C824CA4E8BEDA6A4B'
                BlueprintName = 'NSLayoutConstraint+Reset'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'NSLayoutConstraint_Reset.framework'>

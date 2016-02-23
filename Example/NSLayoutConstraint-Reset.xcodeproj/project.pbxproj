@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1B53CEDDBBF5C5D4C637D83F /* Pods_NSLayoutConstraint_Reset_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DC4CED4ED863642DD424222 /* Pods_NSLayoutConstraint_Reset_Tests.framework */; };
+		3857FBED1C7C06F300C6F73F /* TestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3857FBEB1C7C06F300C6F73F /* TestView.xib */; };
+		3857FBF11C7C094500C6F73F /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3857FBF01C7C094500C6F73F /* TestView.m */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -17,6 +19,9 @@
 
 /* Begin PBXFileReference section */
 		2D0FDB809D36B20AA4F4B989 /* Pods-NSLayoutConstraint-Reset_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSLayoutConstraint-Reset_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NSLayoutConstraint-Reset_Tests/Pods-NSLayoutConstraint-Reset_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3857FBEB1C7C06F300C6F73F /* TestView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestView.xib; sourceTree = "<group>"; };
+		3857FBEF1C7C094500C6F73F /* TestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
+		3857FBF01C7C094500C6F73F /* TestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
 		409B39385744837B5E042598 /* Pods-NSLayoutConstraint-Reset_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSLayoutConstraint-Reset_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NSLayoutConstraint-Reset_Tests/Pods-NSLayoutConstraint-Reset_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -84,6 +89,9 @@
 			children = (
 				6003F5BB195388D20070C39A /* Tests.m */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
+				3857FBEB1C7C06F300C6F73F /* TestView.xib */,
+				3857FBEF1C7C094500C6F73F /* TestView.h */,
+				3857FBF01C7C094500C6F73F /* TestView.m */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -178,6 +186,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3857FBED1C7C06F300C6F73F /* TestView.xib in Resources */,
 				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -237,6 +246,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3857FBF11C7C094500C6F73F /* TestView.m in Sources */,
 				6003F5BC195388D20070C39A /* Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
