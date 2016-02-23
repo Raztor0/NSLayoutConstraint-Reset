@@ -10,12 +10,17 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ```objc
-self.myConstraint = [NSLayoutConstraint ...]; // Initialize your constraint (Also works with interface builder)
-// We'll assume myConstraint.constant is initialized to 20.0f for this example
+UIView *container = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
+UIView *constrainedView = [[UIView alloc] initWithFrame:CGRectMake(20, 20, 20, 20)];
+[container addSubview:constrainedView];
 
-self.myConstraint.constant = 50.0f; // Update the constant value
+NSLayoutConstraint *myConstraint = [NSLayoutConstraint constraintWithItem:constrainedView attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:container attribute:NSLayoutAttributeTop multiplier:1.0f constant:20.0f]; // Also works with NSLayoutConstraints created via InterfaceBuilder
 
-[self.myConstraint reset]; // myConstraint.constant will now be set to 20.0f
+NSLog(@"%f", myConstraint.constant); // 20.0
+myConstraint.constant = 35.0f;
+NSLog(@"%f", myConstraint.constant); // 35.0
+[myConstraint reset];
+NSLog(@"%f", myConstraint.constant); // 20.0
 ```
 
 ## Installation
