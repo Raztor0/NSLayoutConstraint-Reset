@@ -9,6 +9,11 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+First import NSLayoutConstraint+Reset.h
+```objc
+#import "NSLayoutConstraint+Reset.h"
+```
+
 ```objc
 UIView *container = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
 UIView *constrainedView = [[UIView alloc] initWithFrame:CGRectMake(20, 20, 20, 20)];
