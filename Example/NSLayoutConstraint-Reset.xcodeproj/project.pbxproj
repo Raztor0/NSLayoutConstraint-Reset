@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1B53CEDDBBF5C5D4C637D83F /* Pods_NSLayoutConstraint_Reset_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DC4CED4ED863642DD424222 /* Pods_NSLayoutConstraint_Reset_Tests.framework */; };
+		333320566853513C378D6F6D /* Pods_NSLayoutConstraint_Reset_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 758268DDD45411ACEFE4F382 /* Pods_NSLayoutConstraint_Reset_Tests.framework */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -16,8 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2D0FDB809D36B20AA4F4B989 /* Pods-NSLayoutConstraint-Reset_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSLayoutConstraint-Reset_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NSLayoutConstraint-Reset_Tests/Pods-NSLayoutConstraint-Reset_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		409B39385744837B5E042598 /* Pods-NSLayoutConstraint-Reset_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSLayoutConstraint-Reset_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NSLayoutConstraint-Reset_Tests/Pods-NSLayoutConstraint-Reset_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		0EE1F6466A57ACF2D0B68D67 /* Pods-NSLayoutConstraint-Reset_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSLayoutConstraint-Reset_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NSLayoutConstraint-Reset_Tests/Pods-NSLayoutConstraint-Reset_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1AFE179B53355C43154B84EF /* Pods-NSLayoutConstraint-Reset_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSLayoutConstraint-Reset_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NSLayoutConstraint-Reset_Tests/Pods-NSLayoutConstraint-Reset_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -27,7 +27,7 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		8DC4CED4ED863642DD424222 /* Pods_NSLayoutConstraint_Reset_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NSLayoutConstraint_Reset_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		758268DDD45411ACEFE4F382 /* Pods_NSLayoutConstraint_Reset_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NSLayoutConstraint_Reset_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DD0E96010405C01877AB50D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E191C6527E97B856E1BB15F0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		EB3E99D58B926FE497C99997 /* NSLayoutConstraint-Reset.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "NSLayoutConstraint-Reset.podspec"; path = "../NSLayoutConstraint-Reset.podspec"; sourceTree = "<group>"; };
@@ -41,7 +41,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				1B53CEDDBBF5C5D4C637D83F /* Pods_NSLayoutConstraint_Reset_Tests.framework in Frameworks */,
+				333320566853513C378D6F6D /* Pods_NSLayoutConstraint_Reset_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,7 +55,7 @@
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				74701919C2406F7305A25BD9 /* Pods */,
+				637453583561F7A500AFE659 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,7 +74,7 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				8DC4CED4ED863642DD424222 /* Pods_NSLayoutConstraint_Reset_Tests.framework */,
+				758268DDD45411ACEFE4F382 /* Pods_NSLayoutConstraint_Reset_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -108,11 +108,11 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		74701919C2406F7305A25BD9 /* Pods */ = {
+		637453583561F7A500AFE659 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				409B39385744837B5E042598 /* Pods-NSLayoutConstraint-Reset_Tests.debug.xcconfig */,
-				2D0FDB809D36B20AA4F4B989 /* Pods-NSLayoutConstraint-Reset_Tests.release.xcconfig */,
+				1AFE179B53355C43154B84EF /* Pods-NSLayoutConstraint-Reset_Tests.debug.xcconfig */,
+				0EE1F6466A57ACF2D0B68D67 /* Pods-NSLayoutConstraint-Reset_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -124,12 +124,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "NSLayoutConstraint-Reset_Tests" */;
 			buildPhases = (
-				31991DB19E5FF71845124622 /* Check Pods Manifest.lock */,
+				24C05BF61FDFA04065BD9625 /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				D00BA7463CC47F784EA5D370 /* Embed Pods Frameworks */,
-				B7A9E3F3670180D98CD7DCDB /* Copy Pods Resources */,
+				8810ABD8541F0A82DAB17354 /* [CP] Embed Pods Frameworks */,
+				C1947CDA64A4BA0508E70789 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -185,14 +185,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		31991DB19E5FF71845124622 /* Check Pods Manifest.lock */ = {
+		24C05BF61FDFA04065BD9625 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -200,34 +200,34 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		B7A9E3F3670180D98CD7DCDB /* Copy Pods Resources */ = {
+		8810ABD8541F0A82DAB17354 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NSLayoutConstraint-Reset_Tests/Pods-NSLayoutConstraint-Reset_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D00BA7463CC47F784EA5D370 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NSLayoutConstraint-Reset_Tests/Pods-NSLayoutConstraint-Reset_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1947CDA64A4BA0508E70789 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NSLayoutConstraint-Reset_Tests/Pods-NSLayoutConstraint-Reset_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -330,7 +330,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 409B39385744837B5E042598 /* Pods-NSLayoutConstraint-Reset_Tests.debug.xcconfig */;
+			baseConfigurationReference = 1AFE179B53355C43154B84EF /* Pods-NSLayoutConstraint-Reset_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -353,7 +353,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2D0FDB809D36B20AA4F4B989 /* Pods-NSLayoutConstraint-Reset_Tests.release.xcconfig */;
+			baseConfigurationReference = 0EE1F6466A57ACF2D0B68D67 /* Pods-NSLayoutConstraint-Reset_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",

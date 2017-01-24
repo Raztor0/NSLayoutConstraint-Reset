@@ -7,157 +7,87 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01DB5F3DCCF14631FFE3E0CEF217E8B0 /* NSLayoutConstraint+Reset-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E865CD8725BDE876DF2408B5A7BBB98 /* NSLayoutConstraint+Reset-dummy.m */; };
-		0EAEA18B60FE9A84FFB1E65B5C257D95 /* Pods-NSLayoutConstraint-Reset_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F305EA67ABB7FA4FBB6D1BCC758AA435 /* Pods-NSLayoutConstraint-Reset_Tests-dummy.m */; };
-		2BF503AD90AF14650AF451F6D8F4AADA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AD8DD00760D6EBF47DA0F5D442B8D7A /* Foundation.framework */; };
-		2CE92E11BB881D38BA68D49FDF16F73A /* NSLayoutConstraint-Reset.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A8FF235003BC7551005CD88377F1F60E /* NSLayoutConstraint-Reset.bundle */; };
-		333BB96A55A06B6C9340D07669C019CA /* JRSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9B1A5AB3DAD13FDCEB60528F049C9C /* JRSwizzle.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		59D07803B1EA4587252ABCF63E0BD8DB /* NSLayoutConstraint+Reset.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B8A96B5CFD159D766460653A1785F7 /* NSLayoutConstraint+Reset.m */; };
-		644DE27C13EB1C08C05574E897C5EDDD /* JRSwizzle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C25B674DF1AB0F05FD9723A679C9E69D /* JRSwizzle.framework */; };
-		6DC8D8884E152F9A8888F4BECD6D1C77 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AC35859AC2541FBB186B2BD422723E0 /* UIKit.framework */; };
-		6E5661925E13A6B4D43A12F8805E27D4 /* JRSwizzle-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3168E173986ABDC8653062ABF526ECB4 /* JRSwizzle-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		79F803F50546D12EBE7697A608CA109B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AD8DD00760D6EBF47DA0F5D442B8D7A /* Foundation.framework */; };
-		8A519853F61F87117AC875974D5F3566 /* NSLayoutConstraint+Reset-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D3E753DAB8CA49D7C38B9259C25156A /* NSLayoutConstraint+Reset-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A81995C9A47979C25513E3E843E395CC /* Pods-NSLayoutConstraint-Reset_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B6D2F7F851C8B8D962D66946E7CEDA71 /* Pods-NSLayoutConstraint-Reset_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B627FE5805E32C85D44997ED9A4A4DD0 /* JRSwizzle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9025F99F939C0781698B8985790B96D1 /* JRSwizzle-dummy.m */; };
-		D71013505DF4D887097CE358CF49CDF2 /* NSLayoutConstraint+Reset.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A92FA219B82F0D7419C9BF3F22C6ACE /* NSLayoutConstraint+Reset.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E7B5669F491565BDFE2CDC918145F0B4 /* JRSwizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AAF80FAA376DDFB5641007B4C12BC6A /* JRSwizzle.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FEB7D357BC1F60E0A611E9FFA178779C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AD8DD00760D6EBF47DA0F5D442B8D7A /* Foundation.framework */; };
+		13EF82E2A93C5B6F368C1DB7586E4F0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		40660F1A317481BAF19C46C6D6C8485D /* NSLayoutConstraint+Reset-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D3E753DAB8CA49D7C38B9259C25156A /* NSLayoutConstraint+Reset-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70DFA210613A032EC95E33572077DA45 /* NSLayoutConstraint+Reset-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E865CD8725BDE876DF2408B5A7BBB98 /* NSLayoutConstraint+Reset-dummy.m */; };
+		72D85244ECA50C992B57296ABF9C02B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		92BD8A1565DDEDF2FDF4150BA07A8E8A /* NSLayoutConstraint+Reset.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A92FA219B82F0D7419C9BF3F22C6ACE /* NSLayoutConstraint+Reset.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0BD8189967D30B18AB7FD9B7F5C3DD4 /* Pods-NSLayoutConstraint-Reset_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B6D2F7F851C8B8D962D66946E7CEDA71 /* Pods-NSLayoutConstraint-Reset_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD9F07BF9A6B65935691405950D81F9B /* Pods-NSLayoutConstraint-Reset_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F305EA67ABB7FA4FBB6D1BCC758AA435 /* Pods-NSLayoutConstraint-Reset_Tests-dummy.m */; };
+		E2B248FE37DDD35171F493FDC4B3C277 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+		FD2623CCD043B8D89BE548F87C57D2CF /* NSLayoutConstraint+Reset.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B8A96B5CFD159D766460653A1785F7 /* NSLayoutConstraint+Reset.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2F5DC4C48E0C824A2138DDEB8F47898C /* PBXContainerItemProxy */ = {
+		87974E804F541D976D3A492E89C024BC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7279A7C1342B045E56A8D078DD6E8EBA;
+			remoteGlobalIDString = CAF8608A093025074A01AE6C5C8BD596;
 			remoteInfo = "NSLayoutConstraint+Reset";
-		};
-		8935FD1C968DC0A88B87B64DA60F8ADD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E0161ABC6E2E303DD2E506B0DEDC52A0;
-			remoteInfo = "NSLayoutConstraint+Reset-NSLayoutConstraint-Reset";
-		};
-		9DB7415571C176E47ED3FCA88A2B0CA5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 99848EDCE506975A9C4DD0C342A8DBEB;
-			remoteInfo = JRSwizzle;
-		};
-		B997D4DD00CC4A22933EDFCD0AF473EA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 99848EDCE506975A9C4DD0C342A8DBEB;
-			remoteInfo = JRSwizzle;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0AC35859AC2541FBB186B2BD422723E0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		0A990DFE3736A2EBB37B6F53FF503BBB /* NSLayoutConstraint_Reset.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NSLayoutConstraint_Reset.framework; path = "NSLayoutConstraint+Reset.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B08AF63B94CE56F1EE25EA63EF8996B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D3E753DAB8CA49D7C38B9259C25156A /* NSLayoutConstraint+Reset-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+Reset-umbrella.h"; sourceTree = "<group>"; };
-		3168E173986ABDC8653062ABF526ECB4 /* JRSwizzle-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JRSwizzle-umbrella.h"; sourceTree = "<group>"; };
 		3549F97FF67C37BEF41C0B1AF9938DF7 /* NSLayoutConstraint+Reset.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "NSLayoutConstraint+Reset.xcconfig"; sourceTree = "<group>"; };
 		407417397E9A0EF11D73CA2F68FD73B1 /* Pods-NSLayoutConstraint-Reset_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NSLayoutConstraint-Reset_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4AD8DD00760D6EBF47DA0F5D442B8D7A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		4C33A23201AD12CB2FABB81E3F46B8AD /* JRSwizzle.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = JRSwizzle.modulemap; sourceTree = "<group>"; };
+		48B0D2BE006B169D8F3CC82E9F88D801 /* Pods_NSLayoutConstraint_Reset_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NSLayoutConstraint_Reset_Tests.framework; path = "Pods-NSLayoutConstraint-Reset_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E865CD8725BDE876DF2408B5A7BBB98 /* NSLayoutConstraint+Reset-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+Reset-dummy.m"; sourceTree = "<group>"; };
-		5AAF80FAA376DDFB5641007B4C12BC6A /* JRSwizzle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JRSwizzle.h; sourceTree = "<group>"; };
-		5CEED566B401D2ACC24F23B2BFA07E2A /* NSLayoutConstraint_Reset.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSLayoutConstraint_Reset.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		60B8A96B5CFD159D766460653A1785F7 /* NSLayoutConstraint+Reset.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+Reset.m"; sourceTree = "<group>"; };
+		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6A92FA219B82F0D7419C9BF3F22C6ACE /* NSLayoutConstraint+Reset.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+Reset.h"; sourceTree = "<group>"; };
 		6F087130C5540AEFFEAAA37F790773AE /* Pods-NSLayoutConstraint-Reset_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NSLayoutConstraint-Reset_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		8035338BF564DAD1AAAEF8D34C2BA07C /* JRSwizzle-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JRSwizzle-prefix.pch"; sourceTree = "<group>"; };
+		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		8CAD7666025DBC774B2DC88DDD897F0C /* Pods-NSLayoutConstraint-Reset_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NSLayoutConstraint-Reset_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9025F99F939C0781698B8985790B96D1 /* JRSwizzle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JRSwizzle-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		997F7AC2C76FEF410BE92237185F6D29 /* Pods-NSLayoutConstraint-Reset_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NSLayoutConstraint-Reset_Tests-resources.sh"; sourceTree = "<group>"; };
 		A28ED6B77A8E5C344314F2A49304342A /* Pods-NSLayoutConstraint-Reset_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NSLayoutConstraint-Reset_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		A8FF235003BC7551005CD88377F1F60E /* NSLayoutConstraint-Reset.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSLayoutConstraint-Reset.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6D2F7F851C8B8D962D66946E7CEDA71 /* Pods-NSLayoutConstraint-Reset_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NSLayoutConstraint-Reset_Tests-umbrella.h"; sourceTree = "<group>"; };
-		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C18F7A92BA8D3505A7EB35AC7D9A5E34 /* JRSwizzle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JRSwizzle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C25B674DF1AB0F05FD9723A679C9E69D /* JRSwizzle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JRSwizzle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C28792562541D40D8FCEF90D96C98E75 /* JRSwizzle.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JRSwizzle.xcconfig; sourceTree = "<group>"; };
 		C7B57ED379220E4CDD310763F1A78904 /* Pods-NSLayoutConstraint-Reset_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NSLayoutConstraint-Reset_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		C7FDFA9724018B7BE30D2E4C84F101E1 /* Pods-NSLayoutConstraint-Reset_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-NSLayoutConstraint-Reset_Tests.modulemap"; sourceTree = "<group>"; };
+		C7FDFA9724018B7BE30D2E4C84F101E1 /* Pods-NSLayoutConstraint-Reset_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-NSLayoutConstraint-Reset_Tests.modulemap"; sourceTree = "<group>"; };
 		D4CA601E54B821ECA0D7B8604C8D2C7B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D9E66AD4B8ED03E4E42CE4819441DA41 /* Pods_NSLayoutConstraint_Reset_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NSLayoutConstraint_Reset_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E46AFA46BD6E007AED010E52282D3F5B /* NSLayoutConstraint+Reset-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+Reset-prefix.pch"; sourceTree = "<group>"; };
-		E494633923CC576B21BFC7E5A19D3752 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F02BA14D055C2CD8A764E74004BB1D2B /* NSLayoutConstraint+Reset.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "NSLayoutConstraint+Reset.modulemap"; sourceTree = "<group>"; };
+		F02BA14D055C2CD8A764E74004BB1D2B /* NSLayoutConstraint+Reset.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "NSLayoutConstraint+Reset.modulemap"; sourceTree = "<group>"; };
 		F305EA67ABB7FA4FBB6D1BCC758AA435 /* Pods-NSLayoutConstraint-Reset_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NSLayoutConstraint-Reset_Tests-dummy.m"; sourceTree = "<group>"; };
-		FA9B1A5AB3DAD13FDCEB60528F049C9C /* JRSwizzle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JRSwizzle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6A54E0C8DFA0CD42D643AD348B5ED549 /* Frameworks */ = {
+		06E8A04757FF61A0227EE4A642429809 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79F803F50546D12EBE7697A608CA109B /* Foundation.framework in Frameworks */,
+				13EF82E2A93C5B6F368C1DB7586E4F0A /* Foundation.framework in Frameworks */,
+				E2B248FE37DDD35171F493FDC4B3C277 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8822518DD48E5A6B2F03FA4F670C72F9 /* Frameworks */ = {
+		308FD606374C78E6F81C534E025FF408 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BF503AD90AF14650AF451F6D8F4AADA /* Foundation.framework in Frameworks */,
-				644DE27C13EB1C08C05574E897C5EDDD /* JRSwizzle.framework in Frameworks */,
-				6DC8D8884E152F9A8888F4BECD6D1C77 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A3A37BC8BFDDC0868B0D3C4CE12165E7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C3A0AB7082270A291F43D3BF0C1427AC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FEB7D357BC1F60E0A611E9FFA178779C /* Foundation.framework in Frameworks */,
+				72D85244ECA50C992B57296ABF9C02B9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0693D222B1680221AE9E59003013706D /* Support Files */ = {
+		0BD2E988889EA6A060590A2FB45C0DA3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E494633923CC576B21BFC7E5A19D3752 /* Info.plist */,
-				4C33A23201AD12CB2FABB81E3F46B8AD /* JRSwizzle.modulemap */,
-				C28792562541D40D8FCEF90D96C98E75 /* JRSwizzle.xcconfig */,
-				9025F99F939C0781698B8985790B96D1 /* JRSwizzle-dummy.m */,
-				8035338BF564DAD1AAAEF8D34C2BA07C /* JRSwizzle-prefix.pch */,
-				3168E173986ABDC8653062ABF526ECB4 /* JRSwizzle-umbrella.h */,
+				0A990DFE3736A2EBB37B6F53FF503BBB /* NSLayoutConstraint_Reset.framework */,
+				48B0D2BE006B169D8F3CC82E9F88D801 /* Pods_NSLayoutConstraint_Reset_Tests.framework */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/JRSwizzle";
+			name = Products;
 			sourceTree = "<group>";
 		};
-		07DE0BB32255F6204C59B9E462368B51 /* iOS */ = {
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4AD8DD00760D6EBF47DA0F5D442B8D7A /* Foundation.framework */,
-				0AC35859AC2541FBB186B2BD422723E0 /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		16F8CD214FCA9915E12B184639B2698C /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C25B674DF1AB0F05FD9723A679C9E69D /* JRSwizzle.framework */,
-				07DE0BB32255F6204C59B9E462368B51 /* iOS */,
+				E6EE98446B568159EE277B68FD442AF0 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -175,6 +105,7 @@
 			children = (
 				EEFDF0811545D3331529C06C4AA317B0 /* Classes */,
 			);
+			name = Pod;
 			path = Pod;
 			sourceTree = "<group>";
 		};
@@ -192,22 +123,13 @@
 			path = "Example/Pods/Target Support Files/NSLayoutConstraint+Reset";
 			sourceTree = "<group>";
 		};
-		745F1C572426B9F80AE1C265EA400C0E /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D5E9A17196E415D5B95204993A06EB02 /* JRSwizzle */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
-				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				8A7D68B0C1C16CEEC9684257DCFE1427 /* Development Pods */,
-				16F8CD214FCA9915E12B184639B2698C /* Frameworks */,
-				745F1C572426B9F80AE1C265EA400C0E /* Pods */,
-				92B7ED745E780B9D12942C37241521E4 /* Products */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				0BD2E988889EA6A060590A2FB45C0DA3 /* Products */,
 				5E57B7377712E44B0AB7698F02369F9B /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -218,27 +140,6 @@
 				E7B5273FA00819FAF4EC253B1ED78AE1 /* NSLayoutConstraint+Reset */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		92B7ED745E780B9D12942C37241521E4 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				C18F7A92BA8D3505A7EB35AC7D9A5E34 /* JRSwizzle.framework */,
-				A8FF235003BC7551005CD88377F1F60E /* NSLayoutConstraint-Reset.bundle */,
-				5CEED566B401D2ACC24F23B2BFA07E2A /* NSLayoutConstraint_Reset.framework */,
-				D9E66AD4B8ED03E4E42CE4819441DA41 /* Pods_NSLayoutConstraint_Reset_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		D5E9A17196E415D5B95204993A06EB02 /* JRSwizzle */ = {
-			isa = PBXGroup;
-			children = (
-				5AAF80FAA376DDFB5641007B4C12BC6A /* JRSwizzle.h */,
-				FA9B1A5AB3DAD13FDCEB60528F049C9C /* JRSwizzle.m */,
-				0693D222B1680221AE9E59003013706D /* Support Files */,
-			);
-			path = JRSwizzle;
 			sourceTree = "<group>";
 		};
 		E425A07F74963BAD6EB4EFEE20EBC2A6 /* Pods-NSLayoutConstraint-Reset_Tests */ = {
@@ -259,6 +160,15 @@
 			path = "Target Support Files/Pods-NSLayoutConstraint-Reset_Tests";
 			sourceTree = "<group>";
 		};
+		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */,
+				7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		E7B5273FA00819FAF4EC253B1ED78AE1 /* NSLayoutConstraint+Reset */ = {
 			isa = PBXGroup;
 			children = (
@@ -275,113 +185,67 @@
 				6A92FA219B82F0D7419C9BF3F22C6ACE /* NSLayoutConstraint+Reset.h */,
 				60B8A96B5CFD159D766460653A1785F7 /* NSLayoutConstraint+Reset.m */,
 			);
+			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		18912304757ED8119B3B002CCE01882A /* Headers */ = {
+		2B9C5694C5FEF08BE82D3D476C58B9FF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E5661925E13A6B4D43A12F8805E27D4 /* JRSwizzle-umbrella.h in Headers */,
-				E7B5669F491565BDFE2CDC918145F0B4 /* JRSwizzle.h in Headers */,
+				40660F1A317481BAF19C46C6D6C8485D /* NSLayoutConstraint+Reset-umbrella.h in Headers */,
+				92BD8A1565DDEDF2FDF4150BA07A8E8A /* NSLayoutConstraint+Reset.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3F18AED95D0ABBE0D44135BE671459C9 /* Headers */ = {
+		3DEB4ACC96EBDC7375D36DF3D3D5D556 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A81995C9A47979C25513E3E843E395CC /* Pods-NSLayoutConstraint-Reset_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CA3E9BFDF71BBC8AD84DFCE75474A21E /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8A519853F61F87117AC875974D5F3566 /* NSLayoutConstraint+Reset-umbrella.h in Headers */,
-				D71013505DF4D887097CE358CF49CDF2 /* NSLayoutConstraint+Reset.h in Headers */,
+				B0BD8189967D30B18AB7FD9B7F5C3DD4 /* Pods-NSLayoutConstraint-Reset_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		37840F32A845959B33276897343D679B /* Pods-NSLayoutConstraint-Reset_Tests */ = {
+		409F20970A5D274DCEBB08ADC45B00AD /* Pods-NSLayoutConstraint-Reset_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 15B57E1A07FD6DFEE2B2F12454279DAA /* Build configuration list for PBXNativeTarget "Pods-NSLayoutConstraint-Reset_Tests" */;
+			buildConfigurationList = F56D5E65A09FDFE55110283D45E8A7B5 /* Build configuration list for PBXNativeTarget "Pods-NSLayoutConstraint-Reset_Tests" */;
 			buildPhases = (
-				0AA1FC6845105267C1C04D9E4196BF76 /* Sources */,
-				C3A0AB7082270A291F43D3BF0C1427AC /* Frameworks */,
-				3F18AED95D0ABBE0D44135BE671459C9 /* Headers */,
+				4AC885E2C25B5D640ABCE17F0B5111CD /* Sources */,
+				308FD606374C78E6F81C534E025FF408 /* Frameworks */,
+				3DEB4ACC96EBDC7375D36DF3D3D5D556 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8A1306B5FBBC3262BCCFA68426E3FD14 /* PBXTargetDependency */,
-				6CDA6829C34425BF0D08CAD1B581F9EE /* PBXTargetDependency */,
+				E34F26D45B8315C44BBB9BC210FD00AF /* PBXTargetDependency */,
 			);
 			name = "Pods-NSLayoutConstraint-Reset_Tests";
 			productName = "Pods-NSLayoutConstraint-Reset_Tests";
-			productReference = D9E66AD4B8ED03E4E42CE4819441DA41 /* Pods_NSLayoutConstraint_Reset_Tests.framework */;
+			productReference = 48B0D2BE006B169D8F3CC82E9F88D801 /* Pods_NSLayoutConstraint_Reset_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		7279A7C1342B045E56A8D078DD6E8EBA /* NSLayoutConstraint+Reset */ = {
+		CAF8608A093025074A01AE6C5C8BD596 /* NSLayoutConstraint+Reset */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3C61EE1BD043565B259863EB5A5F9793 /* Build configuration list for PBXNativeTarget "NSLayoutConstraint+Reset" */;
+			buildConfigurationList = 462E54A7897DFB6775B9EE981ECCA961 /* Build configuration list for PBXNativeTarget "NSLayoutConstraint+Reset" */;
 			buildPhases = (
-				9D272A1AE7B34B47F2927B2D9887F776 /* Sources */,
-				8822518DD48E5A6B2F03FA4F670C72F9 /* Frameworks */,
-				54C8BE215C8D91B89D50A1162B8A52E6 /* Resources */,
-				CA3E9BFDF71BBC8AD84DFCE75474A21E /* Headers */,
+				57BBAD2B4D713CF42EC4AACE11CE7C6F /* Sources */,
+				06E8A04757FF61A0227EE4A642429809 /* Frameworks */,
+				2B9C5694C5FEF08BE82D3D476C58B9FF /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				03A9BF786CE65DE7BF8AB07DE0899F96 /* PBXTargetDependency */,
-				ADA9E7196F74645DD00B2A99F23BE777 /* PBXTargetDependency */,
 			);
 			name = "NSLayoutConstraint+Reset";
 			productName = "NSLayoutConstraint+Reset";
-			productReference = 5CEED566B401D2ACC24F23B2BFA07E2A /* NSLayoutConstraint_Reset.framework */;
+			productReference = 0A990DFE3736A2EBB37B6F53FF503BBB /* NSLayoutConstraint_Reset.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		99848EDCE506975A9C4DD0C342A8DBEB /* JRSwizzle */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C0EB9C1296361E0BEB6BCB231FE9CDAD /* Build configuration list for PBXNativeTarget "JRSwizzle" */;
-			buildPhases = (
-				EB60AA75CF38CD6B93356C37C2E2EA94 /* Sources */,
-				6A54E0C8DFA0CD42D643AD348B5ED549 /* Frameworks */,
-				18912304757ED8119B3B002CCE01882A /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = JRSwizzle;
-			productName = JRSwizzle;
-			productReference = C18F7A92BA8D3505A7EB35AC7D9A5E34 /* JRSwizzle.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		E0161ABC6E2E303DD2E506B0DEDC52A0 /* NSLayoutConstraint+Reset-NSLayoutConstraint-Reset */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5D19C30BB3D78DD3CAB2EC37CECBA9F1 /* Build configuration list for PBXNativeTarget "NSLayoutConstraint+Reset-NSLayoutConstraint-Reset" */;
-			buildPhases = (
-				CFE895E05C4E988484715BA5C5F37626 /* Sources */,
-				A3A37BC8BFDDC0868B0D3C4CE12165E7 /* Frameworks */,
-				E6A2C3E2910AC0DCC05098EA67728FC0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "NSLayoutConstraint+Reset-NSLayoutConstraint-Reset";
-			productName = "NSLayoutConstraint+Reset-NSLayoutConstraint-Reset";
-			productReference = A8FF235003BC7551005CD88377F1F60E /* NSLayoutConstraint-Reset.bundle */;
-			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -389,7 +253,7 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0700;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
@@ -400,138 +264,80 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 92B7ED745E780B9D12942C37241521E4 /* Products */;
+			productRefGroup = 0BD2E988889EA6A060590A2FB45C0DA3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				99848EDCE506975A9C4DD0C342A8DBEB /* JRSwizzle */,
-				7279A7C1342B045E56A8D078DD6E8EBA /* NSLayoutConstraint+Reset */,
-				E0161ABC6E2E303DD2E506B0DEDC52A0 /* NSLayoutConstraint+Reset-NSLayoutConstraint-Reset */,
-				37840F32A845959B33276897343D679B /* Pods-NSLayoutConstraint-Reset_Tests */,
+				CAF8608A093025074A01AE6C5C8BD596 /* NSLayoutConstraint+Reset */,
+				409F20970A5D274DCEBB08ADC45B00AD /* Pods-NSLayoutConstraint-Reset_Tests */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		54C8BE215C8D91B89D50A1162B8A52E6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2CE92E11BB881D38BA68D49FDF16F73A /* NSLayoutConstraint-Reset.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E6A2C3E2910AC0DCC05098EA67728FC0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		0AA1FC6845105267C1C04D9E4196BF76 /* Sources */ = {
+		4AC885E2C25B5D640ABCE17F0B5111CD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EAEA18B60FE9A84FFB1E65B5C257D95 /* Pods-NSLayoutConstraint-Reset_Tests-dummy.m in Sources */,
+				DD9F07BF9A6B65935691405950D81F9B /* Pods-NSLayoutConstraint-Reset_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9D272A1AE7B34B47F2927B2D9887F776 /* Sources */ = {
+		57BBAD2B4D713CF42EC4AACE11CE7C6F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01DB5F3DCCF14631FFE3E0CEF217E8B0 /* NSLayoutConstraint+Reset-dummy.m in Sources */,
-				59D07803B1EA4587252ABCF63E0BD8DB /* NSLayoutConstraint+Reset.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CFE895E05C4E988484715BA5C5F37626 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EB60AA75CF38CD6B93356C37C2E2EA94 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B627FE5805E32C85D44997ED9A4A4DD0 /* JRSwizzle-dummy.m in Sources */,
-				333BB96A55A06B6C9340D07669C019CA /* JRSwizzle.m in Sources */,
+				70DFA210613A032EC95E33572077DA45 /* NSLayoutConstraint+Reset-dummy.m in Sources */,
+				FD2623CCD043B8D89BE548F87C57D2CF /* NSLayoutConstraint+Reset.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		03A9BF786CE65DE7BF8AB07DE0899F96 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = JRSwizzle;
-			target = 99848EDCE506975A9C4DD0C342A8DBEB /* JRSwizzle */;
-			targetProxy = B997D4DD00CC4A22933EDFCD0AF473EA /* PBXContainerItemProxy */;
-		};
-		6CDA6829C34425BF0D08CAD1B581F9EE /* PBXTargetDependency */ = {
+		E34F26D45B8315C44BBB9BC210FD00AF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "NSLayoutConstraint+Reset";
-			target = 7279A7C1342B045E56A8D078DD6E8EBA /* NSLayoutConstraint+Reset */;
-			targetProxy = 2F5DC4C48E0C824A2138DDEB8F47898C /* PBXContainerItemProxy */;
-		};
-		8A1306B5FBBC3262BCCFA68426E3FD14 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = JRSwizzle;
-			target = 99848EDCE506975A9C4DD0C342A8DBEB /* JRSwizzle */;
-			targetProxy = 9DB7415571C176E47ED3FCA88A2B0CA5 /* PBXContainerItemProxy */;
-		};
-		ADA9E7196F74645DD00B2A99F23BE777 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "NSLayoutConstraint+Reset-NSLayoutConstraint-Reset";
-			target = E0161ABC6E2E303DD2E506B0DEDC52A0 /* NSLayoutConstraint+Reset-NSLayoutConstraint-Reset */;
-			targetProxy = 8935FD1C968DC0A88B87B64DA60F8ADD /* PBXContainerItemProxy */;
+			target = CAF8608A093025074A01AE6C5C8BD596 /* NSLayoutConstraint+Reset */;
+			targetProxy = 87974E804F541D976D3A492E89C024BC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+		4906D726463FA8E13EFB18ECFF80D607 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3549F97FF67C37BEF41C0B1AF9938DF7 /* NSLayoutConstraint+Reset.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NSLayoutConstraint+Reset/NSLayoutConstraint+Reset-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NSLayoutConstraint+Reset/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NSLayoutConstraint+Reset/NSLayoutConstraint+Reset.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = NSLayoutConstraint_Reset;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+		53B24DC53567B863A4EC939BA8C91EFC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -546,10 +352,12 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
@@ -567,71 +375,19 @@
 			};
 			name = Debug;
 		};
-		1292341389833B1B9895F45C8B21113F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3549F97FF67C37BEF41C0B1AF9938DF7 /* NSLayoutConstraint+Reset.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/NSLayoutConstraint+Reset/NSLayoutConstraint+Reset-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NSLayoutConstraint+Reset/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/NSLayoutConstraint+Reset/NSLayoutConstraint+Reset.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = NSLayoutConstraint_Reset;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4B11FB69C98266DBF329604596BCA632 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3549F97FF67C37BEF41C0B1AF9938DF7 /* NSLayoutConstraint+Reset.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/NSLayoutConstraint+Reset/NSLayoutConstraint+Reset-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NSLayoutConstraint+Reset/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/NSLayoutConstraint+Reset/NSLayoutConstraint+Reset.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = NSLayoutConstraint_Reset;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		554953359A7A81CDA9B79751F27DEE5F /* Release */ = {
+		63C3A99F4A0C12E4E796887E7E944EE8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8CAD7666025DBC774B2DC88DDD897F0C /* Pods-NSLayoutConstraint-Reset_Tests.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-NSLayoutConstraint-Reset_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
@@ -642,6 +398,7 @@
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_NSLayoutConstraint_Reset_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -651,17 +408,57 @@
 			};
 			name = Release;
 		};
-		59DE06706C631D98A33AFC032350EF53 /* Debug */ = {
+		6E8650B586063F4B0A6C383981C0C203 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D06AADD5220443CDCD45F287E5264C94 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6F087130C5540AEFFEAAA37F790773AE /* Pods-NSLayoutConstraint-Reset_Tests.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-NSLayoutConstraint-Reset_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
@@ -672,6 +469,7 @@
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_NSLayoutConstraint_Reset_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -681,64 +479,27 @@
 			};
 			name = Debug;
 		};
-		649815D4C2FDD4C4CFA49FF45A11415A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C28792562541D40D8FCEF90D96C98E75 /* JRSwizzle.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/JRSwizzle/JRSwizzle-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JRSwizzle/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JRSwizzle/JRSwizzle.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = JRSwizzle;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8D4C3ACB649ABE3D4F2063561B562E72 /* Debug */ = {
+		FD82CE20BE6857F15D5928DD3C5E53D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3549F97FF67C37BEF41C0B1AF9938DF7 /* NSLayoutConstraint+Reset.xcconfig */;
 			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = "NSLayoutConstraint-Reset";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		999CB0CBBFC3CE713E0CE89F18527C0F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C28792562541D40D8FCEF90D96C98E75 /* JRSwizzle.xcconfig */;
-			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/JRSwizzle/JRSwizzle-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JRSwizzle/Info.plist";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NSLayoutConstraint+Reset/NSLayoutConstraint+Reset-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NSLayoutConstraint+Reset/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JRSwizzle/JRSwizzle.modulemap";
+				MODULEMAP_FILE = "Target Support Files/NSLayoutConstraint+Reset/NSLayoutConstraint+Reset.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = JRSwizzle;
+				PRODUCT_NAME = NSLayoutConstraint_Reset;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -746,63 +507,33 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		99D7660DCE6C0B69CC070D5B02315CF7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3549F97FF67C37BEF41C0B1AF9938DF7 /* NSLayoutConstraint+Reset.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = "NSLayoutConstraint-Reset";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		15B57E1A07FD6DFEE2B2F12454279DAA /* Build configuration list for PBXNativeTarget "Pods-NSLayoutConstraint-Reset_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				59DE06706C631D98A33AFC032350EF53 /* Debug */,
-				554953359A7A81CDA9B79751F27DEE5F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
-				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+				53B24DC53567B863A4EC939BA8C91EFC /* Debug */,
+				6E8650B586063F4B0A6C383981C0C203 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3C61EE1BD043565B259863EB5A5F9793 /* Build configuration list for PBXNativeTarget "NSLayoutConstraint+Reset" */ = {
+		462E54A7897DFB6775B9EE981ECCA961 /* Build configuration list for PBXNativeTarget "NSLayoutConstraint+Reset" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1292341389833B1B9895F45C8B21113F /* Debug */,
-				4B11FB69C98266DBF329604596BCA632 /* Release */,
+				FD82CE20BE6857F15D5928DD3C5E53D6 /* Debug */,
+				4906D726463FA8E13EFB18ECFF80D607 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5D19C30BB3D78DD3CAB2EC37CECBA9F1 /* Build configuration list for PBXNativeTarget "NSLayoutConstraint+Reset-NSLayoutConstraint-Reset" */ = {
+		F56D5E65A09FDFE55110283D45E8A7B5 /* Build configuration list for PBXNativeTarget "Pods-NSLayoutConstraint-Reset_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8D4C3ACB649ABE3D4F2063561B562E72 /* Debug */,
-				99D7660DCE6C0B69CC070D5B02315CF7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C0EB9C1296361E0BEB6BCB231FE9CDAD /* Build configuration list for PBXNativeTarget "JRSwizzle" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				999CB0CBBFC3CE713E0CE89F18527C0F /* Debug */,
-				649815D4C2FDD4C4CFA49FF45A11415A /* Release */,
+				D06AADD5220443CDCD45F287E5264C94 /* Debug */,
+				63C3A99F4A0C12E4E796887E7E944EE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

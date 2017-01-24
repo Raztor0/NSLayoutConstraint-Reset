@@ -17,15 +17,5 @@
   },
   "requires_arc": true,
   "source_files": "Pod/Classes/**/*",
-  "resource_bundles": {
-    "NSLayoutConstraint-Reset": [
-      "Pod/Assets/*.png"
-    ]
-  },
-  "frameworks": "UIKit",
-  "dependencies": {
-    "JRSwizzle": [
-      "~> 1.0"
-    ]
-  }
+  "frameworks": "UIKit"
 }

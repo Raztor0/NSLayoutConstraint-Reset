@@ -34,6 +34,7 @@
     [container addSubview:constrainedView];
     
     NSLayoutConstraint *myConstraint = [NSLayoutConstraint constraintWithItem:constrainedView attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:container attribute:NSLayoutAttributeTop multiplier:1.0f constant:20.0f];
+    [myConstraint initializeConstraint];
     
     XCTAssertEqual(myConstraint.constant, 20.0f);
     myConstraint.constant = 35.0f;
