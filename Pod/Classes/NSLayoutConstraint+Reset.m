@@ -6,22 +6,18 @@
 //
 
 #import "NSLayoutConstraint+Reset.h"
-#import "JRSwizzle.h"
 #import <objc/runtime.h>
 
 @implementation NSLayoutConstraint (Reset)
-
-+ (void)load {
-    static dispatch_once_t onceToken;
-    dispatch_once(&onceToken, ^{
-        [self jr_swizzleMethod:@selector(setConstant:) withMethod:@selector(razvan_setConstant:) error:nil];
-    });
-}
 
 #pragma mark - Public
 
 - (CGFloat)originalConstant {
     return [[self initialConstant] floatValue];
+}
+
+- (void)initializeConstraint {
+    self.initialConstant = @(self.constant);
 }
 
 - (void)reset {
@@ -36,14 +32,6 @@
 
 - (void)setInitialConstant:(NSNumber *)initialConstant {
     objc_setAssociatedObject(self, @selector(initialConstant), initialConstant, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
-}
-
-- (void)razvan_setConstant:(CGFloat)constant {
-    if(![self initialConstant]) {
-        self.initialConstant = [NSNumber numberWithFloat:constant];
-    }
-    
-    [self razvan_setConstant:constant];
 }
 
 @end

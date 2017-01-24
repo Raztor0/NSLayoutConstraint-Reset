@@ -12,6 +12,11 @@
 
 @property (nonatomic, assign, readonly) CGFloat originalConstant;
 
+/*
+ Call @initializeConstraint in -awakeFromNib
+ */
+- (void)initializeConstraint;
+
 - (void)reset;
 
 @end
