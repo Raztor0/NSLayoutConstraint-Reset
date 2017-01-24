@@ -25,6 +25,8 @@ NSLayoutConstraint *myConstraint = [NSLayoutConstraint constraintWithItem:constr
 				    toItem:container attribute:NSLayoutAttributeTop multiplier:1.0f
 				    constant:20.0f];
 
+[myConstraint initializeConstraint];
+
 NSLog(@"%f", myConstraint.constant); // 20.0
 myConstraint.constant = 35.0f;
 NSLog(@"%f", myConstraint.constant); // 35.0
