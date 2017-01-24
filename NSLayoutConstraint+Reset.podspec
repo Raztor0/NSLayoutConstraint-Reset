@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "NSLayoutConstraint+Reset"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "Reset the initial constant value of an NSLayoutConstraint."
 
   s.description      = <<-DESC
